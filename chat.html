@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>chenchen</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            padding: 30px 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .chat-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .message {
+            max-width: 75%;
+            padding: 10px 14px;
+            border-radius: 12px;
+            font-size: 15px;
+            line-height: 1.5;
+            position: relative;
+            white-space: pre-wrap;
+        }
+
+        .message-T {
+            align-self: flex-start;
+            background-color: #fddddd;
+            color: #c74c7e;
+        }
+
+        .message-C {
+            align-self: flex-end;
+            background-color: #dbebff;
+            color: #2d6bc8;
+        }
+
+
+        .item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .item-C {
+            align-items: flex-end;
+        }
+
+        .item-T {
+            align-items: flex-start;
+        }
+
+        .img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">chenchen</div>
+    <div class="chat-container">
+        <!-- 在这里插入你的留言哦~ -->
+         
+        <div class="item item-C">
+            <div class="message message-C">帮你弄好了，你再打开github就能看到。</div>
+        </div>
+        <div class="item item-C">
+            <div class="message message-C">何昀展吗，我记得他，上学期一节舞龙课的。</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">今天遇到了一个同学，说是我上学期一节体育课的，但其实我已经不记得了。好像是叫何昀展的，不知道你还有印象没，快回忆回忆</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">他教了我git的一些知识，好像蛮好用的，我想能不能把咱们的聊天存到git上，进而放到github云仓库里面去呢</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">github账号注册好了，但怎么把本地仓库上传过去啊，没太弄明白</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">好滴。</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">我在教超买了一管防晒霜，放在抽屉里了，你记得每天出门涂上点</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">好像越来越热了，今天胳膊好像晒伤了。</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">我就不玩了，祝你玩得开心</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">五一跟同学约了剧本杀，你想来玩吗。</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">哇塞自学的吗，太厉害了，我好多术语看不懂，你以后慢慢教我</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">今天学了网络协议，TCP三次握手、四次挥手，CTF常考，笔记存电脑里了。</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">算了吧，太远了</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">到清明节了，你准备回老家吗？</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">解出来是你的名字！别再提那个男生了，看到他我就不舒服</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">至于这么怕吗？他又不会怎么样。给你出个编码题：%E9%99%88%E8%BE%B0，解出来是什么？</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">今天回学校了，我收拾了宿舍，累死了。下楼买水的时候，碰到上次表白的男生，吓我一跳，赶紧躲开了，身体都在发抖</div>
+        </div>
+        
+        <div class="item item-T">
+            <div class="message message-T">密码题的诀窍其实就是如何精准识别一段密文是用了什么方法加密，一旦知道了这个，再反过来解密就变得很简单了。
+像base64，大多数时候末尾会带有几个等号，而且总是那么几个字符重复出现；像MD5，长度一定是32位的十六进制字符串；像URL编码，百分号和十六进制数字是标配……
+你多练练，慢慢就能培养出这种感觉了</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">好难啊，做了一整天也没做出来，是多重密码吗，这种题有什么诀窍吗？</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">给你出个题做做吧，别总想着那件事了
+            <img class="img img-T" src="image/t7.png">
+            </div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">呜呜呜，好感动，你对我最好了，感觉你就像我的亲姐姐一样。自从爸妈离婚之后，我和姐姐好像再也没说过话，我都快想不起她长什么样子了。</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">我买了点你爱吃的泡芙，记得吃，吃到好吃的就不难过~</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">嘤嘤嘤，怎么忽然之间就要开学了，感觉刚刚放假啊，我的假期就这么没了。</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">好好好。</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">哼，谁难过了，我才不难过呢。倒是某人，听说大过年的还感冒了。啧啧啧，这小身板是不抗冻</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">别难过，我一直在。</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">
+            <img class="img img-T" src="image/t6.png">
+            </div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">
+            <img class="img img-C" src="image/c4.jpg">
+            </div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">
+            <img class="img img-T" src="image/t5.png">
+            </div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">嘿嘿，今天是情人节~（昨天的题猜得我好苦，真是肉麻，今天也让你猜猜看是什么吧）
+            <img class="img img-C" src="image/c3.jpg">
+            </div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">嘿嘿，明天是情人节~
+            <img class="img img-T" src="image/t4.png">
+            </div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">毕竟爸爸曾经那样对她，搞得她现在都不太敢进厨房了，近两年总算缓解了一些。</div>
+        </div>
+        
+        <div class="item item-T">
+            <div class="message message-T">你妈妈的厨艺好像又进步了，比前两年长进不少</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">哦你说那个啊，我倒没骗你，确实是真的。不过我也不想让你去做了，就这样也挺好了</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">拜托，你到底有没有把我放在心上啊。我要跟你冷战了，等你什么时候想起来我了再说话吧。Vm1wR2FrMVdUWGxUYTJScFVtMW9jVlJYTVZOamJGWnhVMj<br>A1YWsxVk5WZFhhMVUxWVRKS1ZtTkVSbGRXZWtaMldWVmF<br>ZVTVzV25WVWJIQk9ZbFV3TVZaVldrWlBWa0pTVUZRd1BRPT0=
+            </div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">你说什么，什么方法</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">好吧好吧，你之前说的那个方法真的可行吗，我总感觉不太靠谱的样子。</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">哎呀，别说他了，我可不想再提起他了，咱们俩个把日子过好比什么都强</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">前两天我好像又碰见他了，不知道是不是同一个人，但感觉有点熟悉。</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">怎么忽然问这个，上次他好像提了一下，我没记住</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">上次跟你表白的那个男生叫什么名字啊。</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">严肃收到，送你最后一张图，随机种子是今天日期，祝你好运
+            <img class="img img-T" src="image/t3.png">
+            </div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">这几天得收收心了，可能要好一阵不能跟你聊了</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">这个时间点还用猜吗，不过我的你肯定猜不出来
+            <img class="img img-T" src="image/t2.png">
+            </div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">猜猜是什么。
+            <img class="img img-C" src="image/c2.png">
+            </div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">解出来啦！太神奇了！你最近别总沉迷CTF，别忘了上课，挂科就麻烦了。</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">今天练了CTF隐写题，用StegSolve打开图片，切换通道就能看到flag，图片存电脑里了，你试试？</div>
+        </div>
+
+
+        <div class="item item-T">
+            <div class="message message-T">好吧，陪你玩到底，放马过来吧</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">好好好，又被你识破了，我们以后可以多用这样的方式来交流，多有意思啊。</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">喂，别以为我解不出来，这种老古董对我来说还不是soeasy
+            <img class="img img-T" src="image/t1.png">
+            </div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">今天学了隐写技术，你应该听说过吧？我做好了一张图，藏了字，用的是RGB通道的LSB方法，你试试解解看
+            <img class="img img-C" src="image/c1.png">
+            </div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">严肃收到，多谢关心</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">最近越来越冷了，注意保暖呀</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">别扯了，要说你其他地方能帮我我否认，学习上你还一直没超过我呢</div>
+        </div>
+        <div class="item item-C">
+            <div class="message message-C">不跟你说了，我要复习概率论了，虽然是线上的，但也得认真对待才行</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">算了算了我认输还不行吗，再过两天就是概率论的测验了，你复习了没有，到时候可别又叫我来帮你</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">好呀你还想当我姐姐，我可告诉你，我姐比你温柔多了，每次我遇到危险都是我姐姐照顾我，你能吗</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">哼，这你不用怀疑，我肯定比你大，算起来你得叫我一声姐姐</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">可拉倒吧，你有没有我大都两说。</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">没什么，就是觉得麻烦。你要是谈恋爱，一定要第一时间告诉我。毕竟我可比你大了六七十岁呢，总归有点这方面的经验的</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">还没想过，怎么了？你好像特别排斥这件事。</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">对了，你有想过谈恋爱吗？我不希望你谈，总觉得会出事</div>
+        </div>
+        <div class="item item-T">
+            <div class="message message-T">还能怎么拒绝，我都差点扇他一巴掌，那种被人盯着的感觉，太不舒服了</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">哈哈，你本来就是女孩子嘛，被男生表白不是很正常。我感觉我心跳得好快，你怎么拒绝他的？</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">今天上完导论吃饭的时候，有个男生跟我表白了，我吓得赶紧躲开了，身体都在发抖</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">可不是嘛，我好像有点隐隐作痛，下次别这么拼了，我会担心的</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">今天青年跑人好多，我跑太用力了，现在腿好酸。</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">今天高程课好多人没来，估计是看sj大人几乎不怎么签到吧，不过今天果然也没签到。</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">穿上外套果然好多了，一点也不冷</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">今天寒露，宿舍很冷，我加了件外套，你也要注意保暖哦，别冻坏了身子</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">粉色也很适合你啊，哪里奇怪了，蓝色和粉色不正好是一对吗。</div>
+        </div>
+
+        <div class="item item-T">
+            <div class="message message-T">html啊，我以前也学过一点，没想到你们现在还在用这么老古董的技术</div>
+        </div>
+        <div class="item item-T">
+            <div class="message message-T">你用了蓝色那我就用粉色喽，总感觉怪怪的</div>
+        </div>
+
+        <div class="item item-C">
+            <div class="message message-C">咱们以后就用html网页聊天吧，正好还能锻炼我的计算机能力。</div>
+        </div>
+
+    </div>
+</body>
+</html>
