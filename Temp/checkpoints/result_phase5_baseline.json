@@ -1,0 +1,42 @@
+{
+  "variant": "baseline",
+  "head_structure": "Original: Pool ¡ú Dense(1280¡ú26)",
+  "accuracy": 0.76953125,
+  "accuracy_pct": 76.95,
+  "train_time_s": 532.6,
+  "train_time_min": 8.9,
+  "peak_memory_mb": 1196.5,
+  "trainable_params": 33306,
+  "total_params": 2291290,
+  "epoch_losses": [
+    3.294303,
+    2.721187,
+    2.524655,
+    2.26618,
+    1.864502,
+    1.553929,
+    1.346916,
+    1.207141,
+    1.09308,
+    1.030041
+  ],
+  "epoch_times_s": [
+    53.2,
+    52.9,
+    51.0,
+    50.6,
+    50.9,
+    51.7,
+    50.7,
+    50.9,
+    51.4,
+    69.4
+  ],
+  "hyperparams": {
+    "epochs": 10,
+    "batch_size": 16,
+    "lr_max": 0.01,
+    "optimizer": "Momentum(m=0.9, wd=1e-4)",
+    "lr_schedule": "CosineDecay"
+  }
+}
